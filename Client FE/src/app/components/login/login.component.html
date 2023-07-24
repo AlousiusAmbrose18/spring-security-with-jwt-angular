@@ -1,0 +1,27 @@
+
+
+    <div class="form-bg">
+
+        <form [formGroup]="loginForm" class="form">
+            <div class="box">
+               
+                <div style="display: flex; margin: 0 auto;">
+                    <h4 class="admin">LogIn</h4>
+                </div>
+                <div>
+                    <input type="email" name="adminName" id="email" placeholder="Enter email" formControlName="email" required/>
+                </div>
+                <div>
+                    <input type="password" name="password" id="password" placeholder="Enter password" formControlName="password" required/>
+                </div>
+                <div>
+                    <button class="SignUp" type="button" routerLink="/signup">Sign-Up ?</button>
+                </div>
+
+                <button class="login-button" type="submit" (click)="login()" [disabled]="loginForm.invalid">Log In</button>
+            </div>
+        </form>
+    </div>
+
+
+

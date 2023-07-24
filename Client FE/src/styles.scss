@@ -1,0 +1,65 @@
+
+.admin {
+    width: 150px;
+    height: 25px;
+    font-family: system-ui;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    border: 1px solid #ce00e0ee;
+    margin: 15px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.box {
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.invalidMsg {
+    font-family: system-ui;
+    margin-left: 90px;
+    color: rgb(0, 225, 255);
+    letter-spacing: 0.10em;
+    word-spacing: 2px;
+}
+
+input {
+    border-style: none;
+    border-bottom: 1px solid #ce00e0ee;
+    border-radius: 0;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+input,
+.login-button,
+.SignUp,
+.btn2 {
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.SignUp {
+    border: none;
+    margin-left: 140px;
+    list-style: none;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: #ce00e0ee;
+}
+
+.login-button {
+    border: none;
+    background-color: #ce00e0ee;
+    color: white;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
